@@ -1,0 +1,23 @@
+{
+  "artifact_id": "risk-ALPHA-PRIME-1-2025-11-18T06:05:12Z",
+  "agent": "risk_esg",
+  "model_version": "demo-v1",
+  "inputs": {
+    "reservoir_artifact": "artifacts\\ALPHA-PRIME-1\\reservoir.json",
+    "site_meta": "demo_assets_advanced/SCENARIO_01_PRIME_DRILL_TARGET\\site_meta.json"
+  },
+  "outputs": {
+    "reserves_bbl": 311808.1240925827,
+    "NPV_P50": -7193726.8831667565
+  },
+  "esg": {
+    "ESG_status": "PASS",
+    "veto": false,
+    "reason": "none"
+  },
+  "explanation": "Reserves = RQI * 1M bbl. NPV = reserves * $75.0/bbl * 0.12 RF - $10,000,000 CAPEX",
+  "provenance": {
+    "input_hash": "0c873caf244ab35a990c3e89caafdb82b288b19fb1683f9331101fcee3cc37ed",
+    "created_at": "2025-11-18T06:05:12Z"
+  }
+}

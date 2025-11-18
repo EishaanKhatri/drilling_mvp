@@ -1,0 +1,25 @@
+{
+  "artifact_id": "reservoir-ALPHA-PRIME-1-2025-11-18T06:05:12Z",
+  "agent": "reservoir",
+  "model_version": "demo-v1",
+  "inputs": {
+    "petrophysical_artifact": "artifacts\\ALPHA-PRIME-1\\petrophysical.json",
+    "seismic_artifact": "artifacts\\ALPHA-PRIME-1\\seismic.json"
+  },
+  "outputs": {
+    "reservoir_quality_index": 0.3118081240925827,
+    "porosity_norm": 0.34922045950651803
+  },
+  "metrics": {
+    "r2_like": 0.6278448104858398
+  },
+  "explanation": "RQI = 0.6*porosity_norm + 0.4*reservoir_prob",
+  "provenance": {
+    "input_hash": "0c873caf244ab35a990c3e89caafdb82b288b19fb1683f9331101fcee3cc37ed",
+    "used_artifacts": [
+      "petro-ALPHA-PRIME-1-2025-11-18T06:05:11Z",
+      "seismic-ALPHA-PRIME-1-2025-11-18T06:05:12Z"
+    ],
+    "created_at": "2025-11-18T06:05:12Z"
+  }
+}

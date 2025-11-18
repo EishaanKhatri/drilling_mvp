@@ -1,0 +1,64 @@
+{
+  "artifact_id": "seismic-ALPHA-PRIME-1-2025-11-18T06:05:12Z",
+  "agent": "seismic",
+  "model_version": "demo-v1",
+  "inputs": {
+    "files_consumed": [
+      "D:\\Projects\\IEW\\drilling_mvp\\demo_assets_advanced\\SCENARIO_01_PRIME_DRILL_TARGET\\seismic.png"
+    ]
+  },
+  "outputs": {
+    "reservoir_probability": 0.2556896209716797,
+    "blob_centers": [
+      {
+        "x": 255,
+        "y": 306
+      },
+      {
+        "x": 509,
+        "y": 28
+      },
+      {
+        "x": 509,
+        "y": 18
+      },
+      {
+        "x": 367,
+        "y": 24
+      },
+      {
+        "x": 257,
+        "y": 24
+      },
+      {
+        "x": 156,
+        "y": 24
+      },
+      {
+        "x": 62,
+        "y": 24
+      },
+      {
+        "x": 458,
+        "y": 23
+      }
+    ]
+  },
+  "metrics": {
+    "confidence": 1.0,
+    "num_blobs": 8,
+    "blob_coverage": 0.05113792419433594
+  },
+  "attachments": [
+    {
+      "name": "seismic_processed.png",
+      "path": "artifacts\\ALPHA-PRIME-1\\seismic_processed.png",
+      "sha256": "5e89a2b0b7fc5d69e1ff6d91c56516c05e2ac5e8ee6029e40de5c6d92b890840"
+    }
+  ],
+  "explanation": "Threshold = mean + 0.8*std. Detected 8 blobs. Coverage scaled by 5.0.",
+  "provenance": {
+    "input_hash": "0c873caf244ab35a990c3e89caafdb82b288b19fb1683f9331101fcee3cc37ed",
+    "created_at": "2025-11-18T06:05:12Z"
+  }
+}

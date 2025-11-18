@@ -1,0 +1,38 @@
+{
+  "artifact_id": "consensus-ALPHA-PRIME-1-2025-11-18T06:05:12Z",
+  "agent": "consensus",
+  "model_version": "demo-v1",
+  "inputs": {
+    "petrophysical": "artifacts\\ALPHA-PRIME-1\\petrophysical.json",
+    "reservoir": "artifacts\\ALPHA-PRIME-1\\reservoir.json",
+    "risk_esg": "artifacts\\ALPHA-PRIME-1\\risk_esg.json"
+  },
+  "outputs": {
+    "final_score": 0.34742288352520023,
+    "recommendation": "HOLD",
+    "sand_prob": 0.4497334019283348,
+    "rqi": 0.3118081240925827,
+    "npv_norm": 0.2140313655841662
+  },
+  "weights": {
+    "sand_weight": 0.4,
+    "rqi_weight": 0.4,
+    "npv_weight": 0.2
+  },
+  "explain_bullets": [
+    "Sand probability contribution: 0.4 × 0.450 = 0.180",
+    "Reservoir quality contribution: 0.4 × 0.312 = 0.125",
+    "NPV contribution: 0.2 × 0.214 = 0.043",
+    "Final score: 0.347 (threshold: 0.60 for DRILL)",
+    "ESG veto: False"
+  ],
+  "provenance": {
+    "input_hash": "0c873caf244ab35a990c3e89caafdb82b288b19fb1683f9331101fcee3cc37ed",
+    "used_artifacts": [
+      "petro-ALPHA-PRIME-1-2025-11-18T06:05:11Z",
+      "reservoir-ALPHA-PRIME-1-2025-11-18T06:05:12Z",
+      "risk-ALPHA-PRIME-1-2025-11-18T06:05:12Z"
+    ],
+    "created_at": "2025-11-18T06:05:12Z"
+  }
+}

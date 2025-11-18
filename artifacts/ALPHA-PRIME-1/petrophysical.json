@@ -1,0 +1,55 @@
+{
+  "artifact_id": "petro-ALPHA-PRIME-1-2025-11-18T06:05:11Z",
+  "agent": "petrophysical",
+  "model_version": "demo-v1",
+  "inputs": {
+    "files_consumed": [
+      "D:\\Projects\\IEW\\drilling_mvp\\demo_assets_advanced\\SCENARIO_01_PRIME_DRILL_TARGET\\logs.csv",
+      "D:\\Projects\\IEW\\drilling_mvp\\demo_assets_advanced\\SCENARIO_01_PRIME_DRILL_TARGET\\logs_meta.json"
+    ]
+  },
+  "outputs": {
+    "porosity_estimate": 0.1222271608272813,
+    "lithology_probs": {
+      "sand": 0.4497334019283348,
+      "shale": 0.5502665980716652,
+      "silt": 0.0
+    }
+  },
+  "metrics": {
+    "confidence": 0.8153119768551118
+  },
+  "uncertainty": {
+    "epistemic": 0.1846880231448882,
+    "aleatoric": 0.2145494459466083
+  },
+  "explanation": {
+    "explanation_text": "Porosity = mean(NPHI) clipped to [0.02, 0.35]. Sand probability uses GR scale of 180 API.",
+    "shap_top_features": [
+      {
+        "feature": "GR",
+        "shap_value": 0.9999924388757521
+      },
+      {
+        "feature": "NPHI",
+        "shap_value": 4.1328547560328315e-06
+      },
+      {
+        "feature": "RHOB",
+        "shap_value": 3.428269491831288e-06
+      }
+    ]
+  },
+  "attachments": [
+    {
+      "name": "petrophysical_plot.png",
+      "path": "artifacts\\ALPHA-PRIME-1\\petrophysical_plot.png",
+      "sha256": "d91b1a2c97fa6dbd402414bcf025d79688d5d70b4f3c03bae413f179d7c7c4f3"
+    }
+  ],
+  "provenance": {
+    "input_hash": "0c873caf244ab35a990c3e89caafdb82b288b19fb1683f9331101fcee3cc37ed",
+    "created_at": "2025-11-18T06:05:11Z"
+  },
+  "assumptions": []
+}

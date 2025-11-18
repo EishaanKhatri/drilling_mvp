@@ -1,0 +1,10 @@
+2025-11-18T06:02:35Z - Petrophysical agent completed -> artifacts\ALPHA-PRIME-1\petrophysical.json
+2025-11-18T06:02:35Z - Seismic agent completed -> artifacts\ALPHA-PRIME-1\seismic.json
+2025-11-18T06:02:35Z - Reservoir agent completed -> artifacts\ALPHA-PRIME-1\reservoir.json
+2025-11-18T06:02:35Z - Risk/ESG agent completed -> artifacts\ALPHA-PRIME-1\risk_esg.json
+2025-11-18T06:02:35Z - Consensus agent completed -> artifacts\ALPHA-PRIME-1\consensus.json
+2025-11-18T06:05:12Z - Petrophysical agent completed -> artifacts\ALPHA-PRIME-1\petrophysical.json
+2025-11-18T06:05:12Z - Seismic agent completed -> artifacts\ALPHA-PRIME-1\seismic.json
+2025-11-18T06:05:12Z - Reservoir agent completed -> artifacts\ALPHA-PRIME-1\reservoir.json
+2025-11-18T06:05:12Z - Risk/ESG agent completed -> artifacts\ALPHA-PRIME-1\risk_esg.json
+2025-11-18T06:05:12Z - Consensus agent completed -> artifacts\ALPHA-PRIME-1\consensus.json
