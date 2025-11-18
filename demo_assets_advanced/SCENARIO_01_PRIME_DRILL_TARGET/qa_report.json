@@ -1,0 +1,31 @@
+{
+    "site_id": "ALPHA-PRIME-1",
+    "generated_at": "2025-11-18T03:04:48.378489Z",
+    "logs": {
+        "mean_GR": 99.04798765289975,
+        "std_GR": 36.983863388029526,
+        "mean_NPHI": 0.12222716082728134,
+        "std_NPHI": 0.07518634782897245,
+        "mean_RHOB": 2.5528050745193274,
+        "reservoir_interval": {
+            "start_depth": 2580.0,
+            "end_depth": 2630.0,
+            "mean_GR": 35.46759472274428,
+            "mean_NPHI": 0.24967905625682163
+        },
+        "gr_contrast_ratio": 3.3901777919505895,
+        "depth_monotonic": true,
+        "missing_values": 0
+    },
+    "seismic": {
+        "has_bright_spot": true,
+        "style": "bright_spot"
+    },
+    "flags": {
+        "good_gr_contrast": true,
+        "reservoir_detected": true,
+        "depth_monotonic": true,
+        "no_missing_values": true,
+        "protected_area": false
+    }
+}

@@ -1,0 +1,31 @@
+{
+    "site_id": "GAMMA-RISK-3",
+    "generated_at": "2025-11-18T03:04:48.683826Z",
+    "logs": {
+        "mean_GR": 93.67033806291325,
+        "std_GR": 28.179247520464653,
+        "mean_NPHI": 0.13026293952465212,
+        "std_NPHI": 0.054040273665326384,
+        "mean_RHOB": 2.544195723071089,
+        "reservoir_interval": {
+            "start_depth": 2580.0,
+            "end_depth": 2630.0,
+            "mean_GR": 45.41355061850618,
+            "mean_NPHI": 0.21996667182631457
+        },
+        "gr_contrast_ratio": 2.4168102335735386,
+        "depth_monotonic": true,
+        "missing_values": 0
+    },
+    "seismic": {
+        "has_bright_spot": false,
+        "style": "flat_layers"
+    },
+    "flags": {
+        "good_gr_contrast": true,
+        "reservoir_detected": true,
+        "depth_monotonic": true,
+        "no_missing_values": true,
+        "protected_area": false
+    }
+}

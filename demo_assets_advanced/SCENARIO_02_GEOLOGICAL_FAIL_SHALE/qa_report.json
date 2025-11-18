@@ -1,0 +1,31 @@
+{
+    "site_id": "BETA-DUD-2",
+    "generated_at": "2025-11-18T03:04:48.541318Z",
+    "logs": {
+        "mean_GR": 147.4620777642941,
+        "std_GR": 5.757963858837248,
+        "mean_NPHI": 0.043050466374528716,
+        "std_NPHI": 0.015145103480306428,
+        "mean_RHOB": 2.6161506951148557,
+        "reservoir_interval": {
+            "start_depth": 2580.0,
+            "end_depth": 2630.0,
+            "mean_GR": 139.7619258071054,
+            "mean_NPHI": 0.05039414420399011
+        },
+        "gr_contrast_ratio": 1.07345970096621,
+        "depth_monotonic": true,
+        "missing_values": 0
+    },
+    "seismic": {
+        "has_bright_spot": true,
+        "style": "bright_spot"
+    },
+    "flags": {
+        "good_gr_contrast": false,
+        "reservoir_detected": false,
+        "depth_monotonic": true,
+        "no_missing_values": true,
+        "protected_area": false
+    }
+}

@@ -1,0 +1,31 @@
+{
+    "site_id": "DELTA-ECO-4",
+    "generated_at": "2025-11-18T03:04:48.854712Z",
+    "logs": {
+        "mean_GR": 98.59591986307554,
+        "std_GR": 36.87724342874097,
+        "mean_NPHI": 0.12237040296299152,
+        "std_NPHI": 0.07461178611818085,
+        "mean_RHOB": 2.54955048714924,
+        "reservoir_interval": {
+            "start_depth": 2580.0,
+            "end_depth": 2630.0,
+            "mean_GR": 35.18723840321625,
+            "mean_NPHI": 0.24903808079686832
+        },
+        "gr_contrast_ratio": 3.4027150879057895,
+        "depth_monotonic": true,
+        "missing_values": 0
+    },
+    "seismic": {
+        "has_bright_spot": true,
+        "style": "bright_spot"
+    },
+    "flags": {
+        "good_gr_contrast": true,
+        "reservoir_detected": true,
+        "depth_monotonic": true,
+        "no_missing_values": true,
+        "protected_area": true
+    }
+}

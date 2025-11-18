@@ -1,0 +1,13 @@
+{
+    "site_id": "BETA-DUD-2",
+    "operator": "Gemini Oil & Gas",
+    "basin": "Viking Graben",
+    "protected_area": false,
+    "currency": "USD",
+    "estimated_price_per_bbl": 75.0,
+    "water_depth_m": 150,
+    "coordinates": {
+        "lat": 58.0,
+        "lon": 5.0
+    }
+}

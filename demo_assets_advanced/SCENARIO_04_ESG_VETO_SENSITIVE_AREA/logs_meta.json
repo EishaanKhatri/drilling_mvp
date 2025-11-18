@@ -1,0 +1,39 @@
+{
+    "columns": [
+        {
+            "name": "depth",
+            "unit": "m",
+            "description": "Measured depth"
+        },
+        {
+            "name": "GR",
+            "unit": "GAPI",
+            "description": "Gamma Ray",
+            "typical_range": [
+                10,
+                200
+            ]
+        },
+        {
+            "name": "NPHI",
+            "unit": "fraction",
+            "description": "Neutron Porosity",
+            "typical_range": [
+                0.01,
+                0.45
+            ]
+        },
+        {
+            "name": "RHOB",
+            "unit": "g/cc",
+            "description": "Bulk Density",
+            "typical_range": [
+                2.0,
+                2.9
+            ]
+        }
+    ],
+    "depth_reference": "MD",
+    "depth_order": "ascending",
+    "sample_rate_m": 0.5
+}

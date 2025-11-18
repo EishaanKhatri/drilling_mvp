@@ -1,0 +1,13 @@
+{
+    "site_id": "DELTA-ECO-4",
+    "operator": "Gemini Oil & Gas",
+    "basin": "Barents Sea",
+    "protected_area": true,
+    "currency": "USD",
+    "estimated_price_per_bbl": 75.0,
+    "water_depth_m": 150,
+    "coordinates": {
+        "lat": 60.5,
+        "lon": 5.0
+    }
+}

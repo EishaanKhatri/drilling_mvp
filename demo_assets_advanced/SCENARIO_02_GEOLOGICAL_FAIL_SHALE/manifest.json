@@ -1,0 +1,118 @@
+{
+    "scenario_name": "SCENARIO_02_GEOLOGICAL_FAIL_SHALE",
+    "site_id": "BETA-DUD-2",
+    "basin": "Viking Graben",
+    "created_at": "2025-11-18T03:04:48.641645Z",
+    "generator_version": "1.1.0",
+    "seed": 561752572,
+    "files": [
+        {
+            "filename": "expected_outcome.json",
+            "path": "expected_outcome.json",
+            "sha256": "96da83d4db57cff1bddd2a26e60c636d69e1feb1b00d7753a2b2f2637ed31ca5",
+            "size_bytes": 175,
+            "mime_type": "application/json"
+        },
+        {
+            "filename": "location.png",
+            "path": "location.png",
+            "sha256": "d27ebeee9818f9de6ef75da7ef33aa2d049fa4524b11d44eeade14e9db04743a",
+            "size_bytes": 12232,
+            "mime_type": "image/png"
+        },
+        {
+            "filename": "logs.csv",
+            "path": "logs.csv",
+            "sha256": "4616a2fa07e078ec7ca5d0d1815e7a319ad5f05269279270d0a1bab9ca2cec70",
+            "size_bytes": 26100,
+            "mime_type": "text/csv"
+        },
+        {
+            "filename": "logs_meta.json",
+            "path": "logs_meta.json",
+            "sha256": "0fe0c85414f881158d03164d9353939e6369e41cbd736b9104de3000bbeeb821",
+            "size_bytes": 891,
+            "mime_type": "application/json"
+        },
+        {
+            "filename": "qa_report.json",
+            "path": "qa_report.json",
+            "sha256": "2fbf7a3b053af7e8d9cf0a52e795edac768ef27a6b261ee1abf0d4806570457b",
+            "size_bytes": 922,
+            "mime_type": "application/json"
+        },
+        {
+            "filename": "risk.png",
+            "path": "risk.png",
+            "sha256": "a35c8aa4ff841a50a81cf392181f8f183fd665031163a4799504ee7b04f1c2a9",
+            "size_bytes": 10452,
+            "mime_type": "image/png"
+        },
+        {
+            "filename": "seismic.png",
+            "path": "seismic.png",
+            "sha256": "7f9e2906336fea44fd1c5651292184d600116c072b275e29e97da016a47d80ee",
+            "size_bytes": 26634,
+            "mime_type": "image/png"
+        },
+        {
+            "filename": "seismic_meta.json",
+            "path": "seismic_meta.json",
+            "sha256": "26de93822499153e64962ca95a4394fc595bfa7ce636fb1b3a37028412546dd5",
+            "size_bytes": 232,
+            "mime_type": "application/json"
+        },
+        {
+            "filename": "site_meta.json",
+            "path": "site_meta.json",
+            "sha256": "be4acec2e6568db89004dc861a891e81f7dc3c51debdd63c7cfb341348e444c5",
+            "size_bytes": 292,
+            "mime_type": "application/json"
+        }
+    ],
+    "canonical_inputs": {
+        "scenario_name": "SCENARIO_02_GEOLOGICAL_FAIL_SHALE",
+        "site_id": "BETA-DUD-2",
+        "basin": "Viking Graben",
+        "files": [
+            {
+                "filename": "expected_outcome.json",
+                "sha256": "96da83d4db57cff1bddd2a26e60c636d69e1feb1b00d7753a2b2f2637ed31ca5"
+            },
+            {
+                "filename": "location.png",
+                "sha256": "d27ebeee9818f9de6ef75da7ef33aa2d049fa4524b11d44eeade14e9db04743a"
+            },
+            {
+                "filename": "logs.csv",
+                "sha256": "4616a2fa07e078ec7ca5d0d1815e7a319ad5f05269279270d0a1bab9ca2cec70"
+            },
+            {
+                "filename": "logs_meta.json",
+                "sha256": "0fe0c85414f881158d03164d9353939e6369e41cbd736b9104de3000bbeeb821"
+            },
+            {
+                "filename": "qa_report.json",
+                "sha256": "2fbf7a3b053af7e8d9cf0a52e795edac768ef27a6b261ee1abf0d4806570457b"
+            },
+            {
+                "filename": "risk.png",
+                "sha256": "a35c8aa4ff841a50a81cf392181f8f183fd665031163a4799504ee7b04f1c2a9"
+            },
+            {
+                "filename": "seismic.png",
+                "sha256": "7f9e2906336fea44fd1c5651292184d600116c072b275e29e97da016a47d80ee"
+            },
+            {
+                "filename": "seismic_meta.json",
+                "sha256": "26de93822499153e64962ca95a4394fc595bfa7ce636fb1b3a37028412546dd5"
+            },
+            {
+                "filename": "site_meta.json",
+                "sha256": "be4acec2e6568db89004dc861a891e81f7dc3c51debdd63c7cfb341348e444c5"
+            }
+        ]
+    },
+    "input_hash": "cd88ede2e8ce4bc6309e9a1cdfe692ab36a18e853b834c5bd2043ca507042a1e",
+    "notes": "Synthetic drilling scenario generated for demonstration purposes"
+}

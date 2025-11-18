@@ -1,0 +1,118 @@
+{
+    "scenario_name": "SCENARIO_03_SEISMIC_FAIL_NO_TRAP",
+    "site_id": "GAMMA-RISK-3",
+    "basin": "Barents Sea",
+    "created_at": "2025-11-18T03:04:48.811624Z",
+    "generator_version": "1.1.0",
+    "seed": 2450561770,
+    "files": [
+        {
+            "filename": "expected_outcome.json",
+            "path": "expected_outcome.json",
+            "sha256": "36bde7122113452418bf411904358da6e2c0d65791a04d09f16baf18b8e43298",
+            "size_bytes": 180,
+            "mime_type": "application/json"
+        },
+        {
+            "filename": "location.png",
+            "path": "location.png",
+            "sha256": "24ee83ce5fed35669edf55aac5965ffc47ad8857bb5a29c6cc8ba19d623e3458",
+            "size_bytes": 12346,
+            "mime_type": "image/png"
+        },
+        {
+            "filename": "logs.csv",
+            "path": "logs.csv",
+            "sha256": "d9046bae87d9cc5b03b90935efc11090d91eeccdcb5e7517fda567b0f4294e60",
+            "size_bytes": 26014,
+            "mime_type": "text/csv"
+        },
+        {
+            "filename": "logs_meta.json",
+            "path": "logs_meta.json",
+            "sha256": "0fe0c85414f881158d03164d9353939e6369e41cbd736b9104de3000bbeeb821",
+            "size_bytes": 891,
+            "mime_type": "application/json"
+        },
+        {
+            "filename": "qa_report.json",
+            "path": "qa_report.json",
+            "sha256": "9219ff0c973885b6816c9507bd2c4c607cde695cc182dac99eccb621c2288c3e",
+            "size_bytes": 924,
+            "mime_type": "application/json"
+        },
+        {
+            "filename": "risk.png",
+            "path": "risk.png",
+            "sha256": "a35c8aa4ff841a50a81cf392181f8f183fd665031163a4799504ee7b04f1c2a9",
+            "size_bytes": 10452,
+            "mime_type": "image/png"
+        },
+        {
+            "filename": "seismic.png",
+            "path": "seismic.png",
+            "sha256": "b56bd9f4d5b470d394acd5f2298cc0b1e875c9347f51ac0acf57a19f173b98aa",
+            "size_bytes": 5397,
+            "mime_type": "image/png"
+        },
+        {
+            "filename": "seismic_meta.json",
+            "path": "seismic_meta.json",
+            "sha256": "6ff4f6737da1976872477036680de3a08cb322f5fe36a40dbfaf77aa685a117a",
+            "size_bytes": 232,
+            "mime_type": "application/json"
+        },
+        {
+            "filename": "site_meta.json",
+            "path": "site_meta.json",
+            "sha256": "dc0198cc6315cb16400961415ebaec2863fb17cbacc0dca0e6c7a945dcca1775",
+            "size_bytes": 292,
+            "mime_type": "application/json"
+        }
+    ],
+    "canonical_inputs": {
+        "scenario_name": "SCENARIO_03_SEISMIC_FAIL_NO_TRAP",
+        "site_id": "GAMMA-RISK-3",
+        "basin": "Barents Sea",
+        "files": [
+            {
+                "filename": "expected_outcome.json",
+                "sha256": "36bde7122113452418bf411904358da6e2c0d65791a04d09f16baf18b8e43298"
+            },
+            {
+                "filename": "location.png",
+                "sha256": "24ee83ce5fed35669edf55aac5965ffc47ad8857bb5a29c6cc8ba19d623e3458"
+            },
+            {
+                "filename": "logs.csv",
+                "sha256": "d9046bae87d9cc5b03b90935efc11090d91eeccdcb5e7517fda567b0f4294e60"
+            },
+            {
+                "filename": "logs_meta.json",
+                "sha256": "0fe0c85414f881158d03164d9353939e6369e41cbd736b9104de3000bbeeb821"
+            },
+            {
+                "filename": "qa_report.json",
+                "sha256": "9219ff0c973885b6816c9507bd2c4c607cde695cc182dac99eccb621c2288c3e"
+            },
+            {
+                "filename": "risk.png",
+                "sha256": "a35c8aa4ff841a50a81cf392181f8f183fd665031163a4799504ee7b04f1c2a9"
+            },
+            {
+                "filename": "seismic.png",
+                "sha256": "b56bd9f4d5b470d394acd5f2298cc0b1e875c9347f51ac0acf57a19f173b98aa"
+            },
+            {
+                "filename": "seismic_meta.json",
+                "sha256": "6ff4f6737da1976872477036680de3a08cb322f5fe36a40dbfaf77aa685a117a"
+            },
+            {
+                "filename": "site_meta.json",
+                "sha256": "dc0198cc6315cb16400961415ebaec2863fb17cbacc0dca0e6c7a945dcca1775"
+            }
+        ]
+    },
+    "input_hash": "8b889d89e6c15e95fbab35beec4f43159afb19789ca65df17d7caba81cf02481",
+    "notes": "Synthetic drilling scenario generated for demonstration purposes"
+}

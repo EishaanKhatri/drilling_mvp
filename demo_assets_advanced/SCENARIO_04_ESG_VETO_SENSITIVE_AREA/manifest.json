@@ -1,0 +1,118 @@
+{
+    "scenario_name": "SCENARIO_04_ESG_VETO_SENSITIVE_AREA",
+    "site_id": "DELTA-ECO-4",
+    "basin": "Barents Sea",
+    "created_at": "2025-11-18T03:04:48.960997Z",
+    "generator_version": "1.1.0",
+    "seed": 1680969163,
+    "files": [
+        {
+            "filename": "expected_outcome.json",
+            "path": "expected_outcome.json",
+            "sha256": "5dd64bb383a33d442f3870196f7b8bce7f9694a72b714e0ac365f030bb78af62",
+            "size_bytes": 171,
+            "mime_type": "application/json"
+        },
+        {
+            "filename": "location.png",
+            "path": "location.png",
+            "sha256": "08ca550425c034206aa60f9c865efe1567e1d6ef60b96d6430e22a9a9fe7e7b4",
+            "size_bytes": 11770,
+            "mime_type": "image/png"
+        },
+        {
+            "filename": "logs.csv",
+            "path": "logs.csv",
+            "sha256": "aca086ffcac90ef7ce05cae14a1dcf85c47e76a5493c3f96e86bb93afefe2d00",
+            "size_bytes": 26003,
+            "mime_type": "text/csv"
+        },
+        {
+            "filename": "logs_meta.json",
+            "path": "logs_meta.json",
+            "sha256": "0fe0c85414f881158d03164d9353939e6369e41cbd736b9104de3000bbeeb821",
+            "size_bytes": 891,
+            "mime_type": "application/json"
+        },
+        {
+            "filename": "qa_report.json",
+            "path": "qa_report.json",
+            "sha256": "cd3fb519ddcb1ec46772a6935071fa0a66fc898b4cc09790b80da9d5f60d3ddb",
+            "size_bytes": 918,
+            "mime_type": "application/json"
+        },
+        {
+            "filename": "risk.png",
+            "path": "risk.png",
+            "sha256": "a1b6c2e4f6aa35bf71bfa45917eaf7106421d8c3ddbb2f247ecc539397e3f92b",
+            "size_bytes": 14254,
+            "mime_type": "image/png"
+        },
+        {
+            "filename": "seismic.png",
+            "path": "seismic.png",
+            "sha256": "a77c5648e6342afd042c2613adc6d5a347bacc012a3fd326eb5f983aa25f3e1d",
+            "size_bytes": 27220,
+            "mime_type": "image/png"
+        },
+        {
+            "filename": "seismic_meta.json",
+            "path": "seismic_meta.json",
+            "sha256": "26de93822499153e64962ca95a4394fc595bfa7ce636fb1b3a37028412546dd5",
+            "size_bytes": 232,
+            "mime_type": "application/json"
+        },
+        {
+            "filename": "site_meta.json",
+            "path": "site_meta.json",
+            "sha256": "23960743030cd72068647f7cce53309750525bfa126491a385427fda0d4bbfe9",
+            "size_bytes": 290,
+            "mime_type": "application/json"
+        }
+    ],
+    "canonical_inputs": {
+        "scenario_name": "SCENARIO_04_ESG_VETO_SENSITIVE_AREA",
+        "site_id": "DELTA-ECO-4",
+        "basin": "Barents Sea",
+        "files": [
+            {
+                "filename": "expected_outcome.json",
+                "sha256": "5dd64bb383a33d442f3870196f7b8bce7f9694a72b714e0ac365f030bb78af62"
+            },
+            {
+                "filename": "location.png",
+                "sha256": "08ca550425c034206aa60f9c865efe1567e1d6ef60b96d6430e22a9a9fe7e7b4"
+            },
+            {
+                "filename": "logs.csv",
+                "sha256": "aca086ffcac90ef7ce05cae14a1dcf85c47e76a5493c3f96e86bb93afefe2d00"
+            },
+            {
+                "filename": "logs_meta.json",
+                "sha256": "0fe0c85414f881158d03164d9353939e6369e41cbd736b9104de3000bbeeb821"
+            },
+            {
+                "filename": "qa_report.json",
+                "sha256": "cd3fb519ddcb1ec46772a6935071fa0a66fc898b4cc09790b80da9d5f60d3ddb"
+            },
+            {
+                "filename": "risk.png",
+                "sha256": "a1b6c2e4f6aa35bf71bfa45917eaf7106421d8c3ddbb2f247ecc539397e3f92b"
+            },
+            {
+                "filename": "seismic.png",
+                "sha256": "a77c5648e6342afd042c2613adc6d5a347bacc012a3fd326eb5f983aa25f3e1d"
+            },
+            {
+                "filename": "seismic_meta.json",
+                "sha256": "26de93822499153e64962ca95a4394fc595bfa7ce636fb1b3a37028412546dd5"
+            },
+            {
+                "filename": "site_meta.json",
+                "sha256": "23960743030cd72068647f7cce53309750525bfa126491a385427fda0d4bbfe9"
+            }
+        ]
+    },
+    "input_hash": "fc7f170c27e386bb55311c2861c32c455b5e1617b8c7c61946618b7ff60dd5c8",
+    "notes": "Synthetic drilling scenario generated for demonstration purposes"
+}

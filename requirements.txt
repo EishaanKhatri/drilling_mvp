@@ -4,3 +4,9 @@ sentence-transformers
 faiss-cpu
 langchain-community
 langchain-huggingface
+pandas
+numpy
+matplotlib
+Pillow
+opencv-python
+weasyprint

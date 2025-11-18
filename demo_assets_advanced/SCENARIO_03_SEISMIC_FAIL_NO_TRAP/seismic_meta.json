@@ -1,0 +1,9 @@
+{
+    "type": "synthetic_preview",
+    "width": 512,
+    "height": 512,
+    "channels": 3,
+    "attribute": "amplitude",
+    "style": "flat_layers",
+    "notes": "Synthetic seismic amplitude map for demonstration purposes"
+}
