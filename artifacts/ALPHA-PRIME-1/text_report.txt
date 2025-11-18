@@ -1,0 +1,43 @@
+Report generated: 2025-11-18T12:02:54
+Scenario / Site: ALPHA-PRIME-1
+------------------------------------------------------------
+1) Petrophysical summary
+   - Porosity (mean NPHI): 0.122 (i.e. 12.2%)
+   - Sand probability (GR heuristic): 0.450 (45.0%)
+
+2) Seismic summary
+   - Reservoir probability (image heuristic): 0.256
+   - Blobs detected: 8
+
+3) Reservoir fusion
+   - Porosity (normalized to 0.35): 0.349
+   - Reservoir Quality Index (RQI): 0.312
+
+4) Economics & ESG
+   - Estimated recoverable reserves: 311808 bbl
+   - NPV (P50, simple calc): $-7193727
+   - ESG veto: False (status: PASS)
+
+5) Consensus decision
+   - Normalized NPV used: 0.214
+   - Final score: 0.347
+   - Recommendation: HOLD
+
+6) Explainability & provenance
+   - Explain bullets: 
+     * Sand probability contribution: 0.4 × 0.450 = 0.180
+     * Reservoir quality contribution: 0.4 × 0.312 = 0.125
+     * NPV contribution: 0.2 × 0.214 = 0.043
+     * Final score: 0.347 (threshold: 0.60 for DRILL)
+     * ESG veto: False
+   - Input hash (provenance): 0c873caf244ab35a990c3e89caafdb82b288b19fb1683f9331101fcee3cc37ed
+------------------------------------------------------------
+Concise verdict (for stakeholders):
+  Recommendation = HOLD. Final score 0.347 below drill threshold (0.60). Economic estimate negative (NPV $-7193727); geological indicators are modest (porosity 0.122, sand ~45.0%).
+
+Suggested next steps:
+  - Human expert review of logs and seismic annotations.
+  - Cross-check NPHI units and recalibrate GR thresholds with local field data.
+  - Consider field-specific economics and sensitivity runs (price, RF, CAPEX).
+
+End of report.
